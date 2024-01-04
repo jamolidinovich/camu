@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+   
+}
+
+.block{
+    background-color: #e4dfdf;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1300px;
+   padding-left: 40px;
+   background-color: #ffffff;
+}
+
+.container h1{
+    color: rgb(30, 30, 138);
+    font-size: 60px;
+    margin-top: 50px;
+    padding: 5px;
+
+}
+
+.title h2{
+    color:	#000080;
+    font-size: 150px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.title img{
+    width: 170px;
+    height: 170px;
+    margin-left: 700px;
+    top: 150px;
+    position: absolute;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .sarlavha{
+    color: rgb(17, 17, 17);
+    width:800px;
+    height: 70px;
+    background-color: rgb(255, 183, 0);
+    font-size: 25px;
+    margin-top: 150px;
+}
+.main img{
+    width: 810px;
+    height: 700px;
+    margin-top: 50px;
+}
+
+.sarlavha img{
+    width: 60px;
+    height: 60px;
+    /* background-color: brown; */
+    color: rgb(255, 0, 0);
+    margin-top: 105px;
+}
+
+.kalendar {
+    display: flex;
+    /* align-items: center; */
+    text-decoration: none;
+    position: relative;
+}
+
+.kalendar span{
+    margin-top: 100px;
+    margin-left: 10px;
+    color: rgb(5, 5, 113);
+    font-size: 30px;
+    font-family: 'Roboto';
+}
+
+.soat{
+ margin-top: -60px;
+}
+
+.tel{
+    position: absolute ;
+    left: 55px;
+    top: 15px;
+    
+}
+
+.zvanok{
+    margin-top: -45px;
+}
+
+.soat img{
+    width: 60px;
+    height: 60px;
+}
